@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+  body {
+      margin: 0;
+      
+      transition: background-color 0.5s ease; /* Add transition for a smooth color change */
+      
+      
+    }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+/* navbar */
+.logo-img{
+    width: 45vh;
+}
+.navbar{
+ 
+  width: 100%;
+  background-color: #fff;
+  
+}
+.nav-link{
+  font-size: larger;
+}
+
+
+/* #bluenav{
+    background-color: #0051d2;
+    
+    
+   
+}
+
+
+.navbar-brand{
+    color: white;
+}
+
+
+
+.color{
+    
+    color: #0051d2;
+}
+
+#white  {
+    color: rgb(255, 254, 254);
+    font-size: 19px;
+}
+#list{
+    color: white;
+    font-size: 20px;
+}
+.dropdown ul li a{
+    color: #0051d2;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#bluenav a{
+    transition: 300ms;
+}
+#bluenav a:hover{
+ color: #0051d2;;
+}
+
+#language i{ 
+    padding-right: 5px;
+    padding-left: 20px;
+   
+}
+/* navbar contact icons */
+
+/* #nav-icons li{
+  padding-left: 10px;
+}
+
+#dropdown-border{
+  border-color: aqua;
+  border: 10px;
+} */ 
+/* //acؤeil section// */
+.accueil{
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(img/background.jpg);
+   min-height:  600px;
+    background-size: cover;
+    background-position: center;
+   
+}
+#accueil-div h1{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 60px;
+    font-family:  'Montserrat';
+    font-weight: 500;
+}
+#accueil-div h6{
+    color: rgb(214, 213, 213);
+   margin-bottom: 15px;
+   font-size: 17px;
+}
+#btn-accueil a{
+text-decoration: none; 
+color: white;
+}
+#btn-accueil{
+  color: #fff;
+    background-color: #0051d2;
+    border: #0051d2;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+    transition: ease 0.5s;
+}
+#btn-accueil:hover{
+ background-color: white;
+ color: #0051d2;
+}
+
+/* services */
+.accueill-services{
+    background-color: #f3f5f9;
+    padding-bottom: 35px;
+    min-height: 600px;
+}
+.accueill-services h1{
+    text-align: center;
+    padding-top: 35px;
+    font-family:"montesrrat ace";
+    color: #263671;
+    
+   
+}
+/* services cards */
+#cards_landscape_wrap-2{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+ 
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    
+    border-radius: 10px;
+  
+  }
+  .bordr{
+    border-radius: 10px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+   
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+   
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #263671;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    color: #fff;
+    background-color: #263671;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 1rem 8px;
+    background-color: #263671;
+    border-radius: 10px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 700ms ease-in-out;
+    font-family:"montesrrat ace";
+    color: rgba#0051d2;
+  }
+  /* a propos de nous */
+  .Àpropos{
+    min-height: 500px;
+    }
+   
+   
+    .carousel-inner img,video{
+      width: 70VW;
+      height: 70vw;
+    }
+ .container-galerie{
+ width: 50vw;
+ }
+   
+/* convention */
+
+#overlay {
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+#zoomInButton, #zoomOutButton ,#closeButton , #moveLeftButton, #moveRightButton, #moveDownButton, #moveUpButton{ 
+  display: none;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+.overlay-visible #moveLeftButton,
+    .overlay-visible #moveRightButton,.overlay-visible #zoomInButton,.overlay-visible #zoomOutButton,.overlay-visible #closeButton ,.overlay-visible #moveDownButton,.overlay-visible #moveUpButton{
+      display: block;
+      margin: 0 30px 10px ; /* Center the buttons horizontally */
+      transform: translateX(-50%); /* Center the buttons horizontally */
+    }
+   
+    #overlayImage{
+      z-index: 1;
+    }
+
+
+#zoomInButton:hover, #zoomOutButton:hover, #closeButton:hover , #moveLeftButton, #moveRightButton  {
+  background-color: #2980b9;
+}
+#closeButton{
+  top: 10%;
+}
+
+#zoomOutButton{
+  top: 10%;
+   right: 70%;
+}
+#zoomInButton{
+  top: 10%;
+   left: 70%;
+}
+
+#overlay img {
+  max-width: 80%;
+  max-height: 80%;
+}
+    #convention-img{
+        width: 100%;
+        height: 100%;
+        box-shadow: -3px 4px 11px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 4px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 4px 11px 0px rgba(0,0,0,0.75);
+
+    }
+    .overlay-visible .visiblity {
+      display: none; /* Hide gallery when overlay is visible */
+    }
+
+    .convention-header {
+      text-align: center;
+      padding-top: 35px;
+      font-family:"montesrrat ace";
+      color: #263671;
+      
+     
+  }
+  .convention{
+    background-color: #f3f5f9;
+  }
+  /* convention end */
+  /* footer */
+
+  footer{
+   background-color: #263671;
+   padding-top: 50px;
+   color: white;
+  }
+ 
+
+  #temps h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -2px;
+    font-family: "Montserrat Ace";
+    color: white;
+  }
+  #temps p , #temps a ,#nav-footer ,#nav-footer p{
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+  }
+  .lign-footer{
+    background-color:white ;
+    
+    height: 1px;
+    width: 180px;
+
+    opacity: 1;
+  }
+  .lign-footer-2{
+    background-color:white ;
+    position: absolute;
+    height: 90%;
+    width: 2px;
+    right: 80px;
+    top: -15px;
+    opacity: 0.7;
+  }
+  #contact-footer{
+    font-weight: 100;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  #temps-travail-footer{
+    opacity: 0.7;
+  }
+
+
+  #footer-config .col-md-3 p{
+    color: rgba(255,255,255,0.9);
+  }
+  #fotter-config p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    
+  }
+
+  #test {
+    
+      transition: height 0.9s ease;
+     
+    
+  }
+
+ 
+ #unit-drop{
+  color: #0051d2;
+ }
+ .nav-h4{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: -2px;
+  font-family: "Montserrat Ace";
+  color: white;
+ }
+
+ /* scroll effect */
+
+
+
+
+
+
+
+
+
+
+
+
+
